@@ -1,0 +1,32 @@
+{
+  "name": "ci-audit-failure-example",
+  "version": "1.0.0",
+  "description": "example of npm audit failing CI/CD",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcoe/ci-audit-failure-example.git"
+  },
+  "keywords": [
+    "ci",
+    "failure",
+    "npm",
+    "audit"
+  ],
+  "author": "Ben Coe <ben@npmjs.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bcoe/ci-audit-failure-example/issues"
+  },
+  "homepage": "https://github.com/bcoe/ci-audit-failure-example#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "merge": "^1.2.0"
+  }
+}
