@@ -4,6 +4,7 @@
   "description": "example of npm audit failing CI/CD",
   "main": "index.js",
   "scripts": {
+    "pretest": "npm audit",
     "test": "mocha test.js"
   },
   "repository": {
